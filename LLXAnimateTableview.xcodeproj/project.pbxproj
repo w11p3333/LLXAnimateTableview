@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B295D45E1CAB649C00F094D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D45D1CAB649C00F094D3 /* AppDelegate.swift */; };
-		B295D4601CAB649C00F094D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D45F1CAB649C00F094D3 /* ViewController.swift */; };
 		B295D4631CAB649C00F094D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B295D4611CAB649C00F094D3 /* Main.storyboard */; };
 		B295D4651CAB649C00F094D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B295D4641CAB649C00F094D3 /* Assets.xcassets */; };
 		B295D4681CAB649C00F094D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B295D4661CAB649C00F094D3 /* LaunchScreen.storyboard */; };
 		B295D4731CAB649C00F094D3 /* LLXAnimateTableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D4721CAB649C00F094D3 /* LLXAnimateTableviewTests.swift */; };
 		B295D47E1CAB649C00F094D3 /* LLXAnimateTableviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D47D1CAB649C00F094D3 /* LLXAnimateTableviewUITests.swift */; };
+		B295D4901CAB83AA00F094D3 /* LLXAnimateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D48F1CAB83AA00F094D3 /* LLXAnimateTableViewCell.swift */; };
+		B295D4921CAB83C900F094D3 /* LLXAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295D4911CAB83C900F094D3 /* LLXAnimateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,17 +37,18 @@
 /* Begin PBXFileReference section */
 		B295D45A1CAB649B00F094D3 /* LLXAnimateTableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLXAnimateTableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B295D45D1CAB649C00F094D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B295D45F1CAB649C00F094D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B295D4621CAB649C00F094D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B295D4641CAB649C00F094D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B295D4671CAB649C00F094D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B295D4691CAB649C00F094D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B295D46E1CAB649C00F094D3 /* LLXAnimateTableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLXAnimateTableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B295D46E1CAB649C00F094D3 /* LLXAnimateTableview.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLXAnimateTableview.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B295D4721CAB649C00F094D3 /* LLXAnimateTableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLXAnimateTableviewTests.swift; sourceTree = "<group>"; };
 		B295D4741CAB649C00F094D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B295D4791CAB649C00F094D3 /* LLXAnimateTableviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLXAnimateTableviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B295D4791CAB649C00F094D3 /* LLXAnimateTableview.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLXAnimateTableview.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B295D47D1CAB649C00F094D3 /* LLXAnimateTableviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLXAnimateTableviewUITests.swift; sourceTree = "<group>"; };
 		B295D47F1CAB649C00F094D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B295D48F1CAB83AA00F094D3 /* LLXAnimateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLXAnimateTableViewCell.swift; sourceTree = "<group>"; };
+		B295D4911CAB83C900F094D3 /* LLXAnimateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLXAnimateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				B295D45A1CAB649B00F094D3 /* LLXAnimateTableview.app */,
-				B295D46E1CAB649C00F094D3 /* LLXAnimateTableviewTests.xctest */,
-				B295D4791CAB649C00F094D3 /* LLXAnimateTableviewUITests.xctest */,
+				B295D46E1CAB649C00F094D3 /* LLXAnimateTableview.xctest */,
+				B295D4791CAB649C00F094D3 /* LLXAnimateTableview.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				B295D45D1CAB649C00F094D3 /* AppDelegate.swift */,
-				B295D45F1CAB649C00F094D3 /* ViewController.swift */,
 				B295D4611CAB649C00F094D3 /* Main.storyboard */,
 				B295D4641CAB649C00F094D3 /* Assets.xcassets */,
 				B295D4661CAB649C00F094D3 /* LaunchScreen.storyboard */,
 				B295D4691CAB649C00F094D3 /* Info.plist */,
+				B295D48F1CAB83AA00F094D3 /* LLXAnimateTableViewCell.swift */,
+				B295D4911CAB83C900F094D3 /* LLXAnimateViewController.swift */,
 			);
 			path = LLXAnimateTableview;
 			sourceTree = "<group>";
@@ -160,7 +163,7 @@
 			);
 			name = LLXAnimateTableviewTests;
 			productName = LLXAnimateTableviewTests;
-			productReference = B295D46E1CAB649C00F094D3 /* LLXAnimateTableviewTests.xctest */;
+			productReference = B295D46E1CAB649C00F094D3 /* LLXAnimateTableview.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B295D4781CAB649C00F094D3 /* LLXAnimateTableviewUITests */ = {
@@ -178,7 +181,7 @@
 			);
 			name = LLXAnimateTableviewUITests;
 			productName = LLXAnimateTableviewUITests;
-			productReference = B295D4791CAB649C00F094D3 /* LLXAnimateTableviewUITests.xctest */;
+			productReference = B295D4791CAB649C00F094D3 /* LLXAnimateTableview.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B295D4601CAB649C00F094D3 /* ViewController.swift in Sources */,
+				B295D4921CAB83C900F094D3 /* LLXAnimateViewController.swift in Sources */,
+				B295D4901CAB83AA00F094D3 /* LLXAnimateTableViewCell.swift in Sources */,
 				B295D45E1CAB649C00F094D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,7 +409,7 @@
 				INFOPLIST_FILE = LLXAnimateTableview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = llx.LLXAnimateTableview;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLXAnimateTableview;
 			};
 			name = Debug;
 		};
@@ -416,7 +420,7 @@
 				INFOPLIST_FILE = LLXAnimateTableview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = llx.LLXAnimateTableview;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLXAnimateTableview;
 			};
 			name = Release;
 		};
@@ -427,7 +431,7 @@
 				INFOPLIST_FILE = LLXAnimateTableviewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = llx.LLXAnimateTableviewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLXAnimateTableview;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLXAnimateTableview.app/LLXAnimateTableview";
 			};
 			name = Debug;
@@ -439,7 +443,7 @@
 				INFOPLIST_FILE = LLXAnimateTableviewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = llx.LLXAnimateTableviewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLXAnimateTableview;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLXAnimateTableview.app/LLXAnimateTableview";
 			};
 			name = Release;
@@ -450,7 +454,7 @@
 				INFOPLIST_FILE = LLXAnimateTableviewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = llx.LLXAnimateTableviewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLXAnimateTableview;
 				TEST_TARGET_NAME = LLXAnimateTableview;
 			};
 			name = Debug;
@@ -461,7 +465,7 @@
 				INFOPLIST_FILE = LLXAnimateTableviewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = llx.LLXAnimateTableviewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LLXAnimateTableview;
 				TEST_TARGET_NAME = LLXAnimateTableview;
 			};
 			name = Release;
